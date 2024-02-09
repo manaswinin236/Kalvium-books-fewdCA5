@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+/* Global styling */
+* {
+  font-family: "Rajdhani", sans-serif;
+}
+
+/* Registration container styling */
+.registration-form {
+  width: 500px;
+  margin: 300px auto 0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(17, 20, 17, 0.733);
+  font-family: 'Josefin Slab', serif;
+  background-color: rgba(198, 219, 174, 0.493);
+  border: 5px solid white;
+}
+
+/* Heading 2 styling */
+h2 {
+  text-align: center;
+}
+
+/* Logo link styling */
+.home-logo {
+  text-decoration: none;
+  margin: 0;
+}
+
+/* Main content styling */
+.main-content {
+  margin-top: 20px;
+}
+
+/* Heading styling */
+.heading {
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: block;
+  text-align: center;
+}
+
+/* Form container styling */
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input label styling */
+.input-box {
+  margin-bottom: 8px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Input field styling */
+.input-field {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  border: 2px solid #6c994e;
+}
+
+/* Error message styling */
+.error-message {
+  color: #e74c3c;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* Submit button styling */
+.submit-button {
+  background-color: #6c994e;
+  width: 50%;
+  max-width: 200px;
+  padding: 10px 0px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 8px auto;
+}
+
+.submit-button:hover {
+  background-color: #9dbd7f;
+  border: 3px solid #6c994e;
+  font-weight: bolder;
+}
+
+/* Registration success styling */
+.registration-completed {
+  color: #000000;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+
+#home{
+  margin-left: 40%;
+  margin-top: 20px;
+  height: 50px;
+  width: 100px;
+  border-radius: 3px;
+  border: 5px solid rgb(243, 243, 243);
+  background-color: #9dbd7f;
+  box-shadow: 2px 2px 4px rgba(17, 20, 17, 0.116);
+}
+
+a#link{
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Responsive styling for small screens */
+@media (max-width: 600px) {
+  .registration-form {
+    max-width: 100%;
+  }
+}
