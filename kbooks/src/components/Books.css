@@ -1,21 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-/* Global styling */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Josefin Slab', serif;
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+  font-family: 'Josefin Slab', serif; 
 }
 
-  /*Adding styles to body*/
-body {
-  background-color: #dde7c7;
+/* Body styling */
+body { 
+  background-color: #dde7c7; 
 }
 
 /* Container for the book list */
-.book-list-container {
-  margin: 0 auto;
-  overflow-x: hidden;
+.main-container { 
+  margin: 0 auto; 
+  overflow-x: hidden; 
 }
 
 /* Header styling */
@@ -23,26 +22,21 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 40px; /* Combine margin-bottom properties */
+  margin-bottom: 40px;
   border-bottom: 2px solid #ffffff;
   width: 100vw;
   padding: 10px 8vw;
 }
 
-.header img {
-  height: 5%;
-  width: 5%;
+.header img { 
+  height: 5%; 
+  width: 5%; 
 }
 
-h2 {
-  font-size: 3vw;
-  margin: 0;
-  font-weight: 700;
-  color: #83b198;
-}
+h2 { font-size: 3vw; margin: 0; font-weight: 700; color: #83b198; }
 
 /* Search bar container styling */
-.search-bar-container {
+.searchbar {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -71,6 +65,7 @@ h2 {
   border-radius: 5px;
   cursor: pointer;
 }
+
 .search-input:hover,
 .register-button:hover {
   background-color: #6d7e49;
@@ -88,7 +83,7 @@ h2 {
 }
 
 /* Book card styling */
-.book-card {
+.book-card-container {
   height: 400px;
   width: 300px;
   border-radius: 10px;
@@ -99,13 +94,13 @@ h2 {
   text-align: left;
 }
 
-.book-card:hover {
-  background-color: #1b43323f;
+.book-card-container:hover { 
+  background-color: #1b43323f; 
 }
+
 /* Book thumbnail styling */
-.book-thumbnail {
-  height: 200px;
-  
+.book-thumbnail { 
+  height: 200px; 
 }
 
 /* Book details styling */
@@ -118,19 +113,19 @@ h2 {
 }
 
 /* Book title styling */
-.book-title {
-  font-weight: bold;
-  font-size: 25px;
+.title { 
+  font-weight: bold; 
+  font-size: 25px; 
 }
 
 /* Book authors styling */
-.book-authors {
-  font-size: 16px;
-  margin-top: 10px;
+.author { 
+  font-size: 16px; 
+  margin-top: 10px; 
 }
 
 /* Book rating styling */
-.book-rating {
-  font-size: 16px;
-  margin-top: 10px;
+.rating { 
+  font-size: 16px; 
+  margin-top: 10px; 
 }
